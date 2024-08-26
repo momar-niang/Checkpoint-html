@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+</head>
+<body>
+    <!--Barre de navigation  -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos"> A propos</a></li>
+                <li><a href="#travail">Travail</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Accueil -->
+     <section id="accueil">
+        <h1>BIENVENU!</h1>
+        <p>Bonjour! Decouvrir à travers ce Portfolio mes projets et experiences professionelles.</p>
+     </section>
+
+     <!-- Section A propos -->
+      <section id="apropos">
+        <h2>A propos de moi</h2>
+        <p>Je me nomme MTN un développeur web inexpérimenté mais enthousiaste et ambitieuX. J'adore créer pour partager!</p>
+        <img src="./mtn tof.JPG" alt="mtn tof" width="150">
+      </section>
+
+      <!-- Section Travail -->
+       <section id="travail">
+        <h2>Mon Travail</h2>
+        <p>Voici mes projets si récents :</p>
+        <ul>
+            <li><a href="proget1.html">Proget 1</a> - Description du projet monteur video</li>
+            <li><a href="proget2.html">Proget 2</a> - Description du projet creation de site</li>
+            <li><a href="proget3.html">Proget 3</a> - Description du projet monteur video</li>
+        </ul>
+        <video controls width="400">
+            <source src="./video1.mp4" autoplay>
+        </video>
+       </section>
+
+       <!-- Section CV -->
+        <section id="cv">
+            <h2>Mon CV</h2>
+            <P>Téléchargez mon CV en format PDF :</P>
+          <a href="cuuriculum.pdf" download>Téléchargez le CV</a>
+            <h3>Expérience Professionnelle</h3>
+            <table border="1">
+                <caption> Expérience Professionnelle</caption>
+                <thead>
+                    <tr>
+                        <th>Année</th>
+                        <th>Poste</th>
+                        <th>Entreprise</th>
+                    </tr>
+                    <tr>
+                        <td>2015-2024</td>
+                        <td>Enseignant</td>
+                        <td>Développeur</td>
+                    </tr>
+                    <tr>
+                        <td>2022-2024</td>
+                        <td>Eseignant</td>
+                        <td>Développeur</td>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+
+        <!-- Section Contact -->
+         <section id="contact">
+            <h2>Contactez-moi</h2>
+            <form action="traitement-formulaire.php" method="post">
+                <label for="mt">nom :mt </label>
+                <input type="text" id="mt" name="mt" required>
+                <br>
+                <label for="momartallamtn@yahoo.fr"> Email:</label>
+                <input type="momartallamtn@yahoo.fr" id="momartallamtn@yahoo.fr"> 
+                <br>
+                <label for="message">Message :</label>
+                <textarea name="message" id="message" rows="4" ></textarea>
+                <br>
+                <button type="submit">Envoyez</button>
+                
+            </form>
+         </section>
+
+         <!-- pied de page -->
+          <footer>
+            <p>&copy; 2024 Mon Portfolio. A Sauvegarder!
+
+            </p>
+          </footer>
+
+</body>
+</html>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color:   white;
+    }
+    /* Autre Sryle */
+</style>
